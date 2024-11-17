@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <header class="header">
+        <div class="logo">Portfolio.</div>
+        <nav class="navbar">
+            <a href="#home" class="native">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact-us">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- HOME SECTION -->
+    <section class="homepage" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="my-name">Mohd Sarvar Khan</span></h1>
+            <h2><span class="heading-color">Frontend Developer</span></h2>
+
+            <p>Passionate about coding, driven by innovation.<br>
+                Building a better future with Tawakkul.</p>
+        </div>
+
+        <!-- <div class="hero-image"></div> -->
+
+        <img src="./images/Sarvarbackground_processed.webp" alt="sarvar pic" class="hero-image">
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about-me" id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="img1">
+                <img src="./images/sarvaraboutus1.webp" alt="Sarvar's Pic" class="image1">
+            </div>
+            <div class="p1">
+                <p>
+                    Hi, <strong style="color: rgb(168, 54, 239);">I'm Mohd Sarvar Khan,</strong> a Frontend Developer with
+                    a passion for crafting visually appealing and intuitive digital experiences. 
+                    With strong foundations in HTML, CSS, and JavaScript, I thrive on turning ideas into functional and responsive web applications.
+                </p>
+            </div>
+            <div class="img2">
+                <img src="./images/sarvaraboutus2.webp" alt="Sarvar's pic">
+            </div>
+            <div class="p2">
+                <p>
+                    During my web development internship, I successfully delivered projects that emphasized clean
+                    design and efficient code. Currently, I am expanding my skills in MERN stack and Blockchain development, blending innovation with impactful solutions. 
+                    Let's build something incredible together!
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li data-icon="html"> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+            <li data-icon="css"> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+            <li data-icon="js"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+            <li data-icon="react"> <a
+                    href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">React</a>
+            </li>
+            <li data-icon="node"> <a
+                    href="https://developer.mozilla.org/en-US/docs/Glossary/Node.js?retiredLocale=hu&language=hu">Node.js</a>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="./images/bookmyshow.png" alt="BookMyShow Clone" class="project-img">
+            <p>I developed the frontend of a BookMyShow clone, focusing on creating a visually engaging and user-friendly interface with features like movie listings and responsive design.</p>
+        </div>
+        <div class="project">
+            <img src="./images/calculator.png" alt="Calculator Project" class="project-img">
+            <p>I built a fully functional calculator using HTML, CSS, and JavaScript, featuring responsive buttons and real-time input validation.</p>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact-us">
+        <h2>Contact Me</h2>
+        <form action="mailto:khanmohdsarvaralam@gmail.com" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>  
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mohd-sarvar-khan-741765247/" target="_blank"
+                    aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/MohdSarvarKhan" target="_blank" aria-label="GitHub Profile"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://x.com/Mohd_Sarvar_05?t=WQZK4JejyUCJODUJDd1tRA&s=09" target="_blank" aria-label="Twitter Profile"><i
+                        class="fab fa-twitter"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mohd Sarvar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+   
+</body>
+
+</html>
